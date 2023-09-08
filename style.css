@@ -3,13 +3,14 @@
     padding:0;
     box-sizing: border-box;
     color: white;
+    word-break: break-all;
     --blue: #1966c5;
 }
 
 
 body{
     background-color:#1a2232 ;
-    font-family: "Open sans",sans-serif;;
+    font-family: "Open sans",sans-serif;
 }
 
 #image__div{
@@ -33,10 +34,12 @@ body{
     justify-content: flex-start;
     align-items: center;
     gap: 30px;
+    
 }
 
 .data__container{
     width: 100%;
+  
 }
 
 .data__container label{
@@ -46,7 +49,9 @@ body{
     font-size: small;
 }
 .data__container p{
-    font-size: larger;
+    font-size: x-large;
+    font-weight: 550;
+
 }
 
 .data__container button{
