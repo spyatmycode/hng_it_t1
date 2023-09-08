@@ -6,7 +6,7 @@ const gitHubButton = document.querySelector("button")
 
 
 gitHubButton.addEventListener("click",()=>{
-    window.location.href = "https://github.com/spyatmycode"
+    window.location.href = "https://github.com/spyatmycode/hng_it_t1"
 })
 
 
